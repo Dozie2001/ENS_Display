@@ -40,11 +40,11 @@ export default function Home() {
       <div className={" min-h-[90vh] flex justify-center items-center font-sans max-[1000px]:w-full max-[1000px]:flex-col max-[1000px]:justify-center max-[1000px]:items-center  "}>
         <div className="pl-12">
           <h1 className="text-4xl my-8  mx-0 ">
-            Welcome to LearnWeb3 Punks {ens ? ens : address}!
+            Welcome to  Punks {ens ? ens : address}!
           </h1>
           <div className={"leading-4 my-8 mx-0 text-xl"}>
             {/* Using HTML Entities for the apostrophe */}
-            It&#39;s an NFT collection for LearnWeb3 Punks.
+            It&#39;s an NFT collection for  Punks.
           </div>
           {renderButton()}
         </div>
